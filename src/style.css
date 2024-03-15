@@ -1,1 +1,10 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: rgb(60, 150, 180);
+  color: white;
+}
+#bordergif {
+  border: 30px solid transparent;
+  border-image: url(/src/assets/img/fireworks.gif) 30% round;
+  border-image-width: 30px;
+}
